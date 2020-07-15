@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Loop</title>
+</head>
+<body>
+    <p>
+        <code>
+            Symple Sytax for For Loop <br>
+            for(i = 0; i < 10; i++){<br>
+                &nbsp;&nbsp;code....<br>
+            }
+            <br><br>
+            Nested For Loop <br>
+            &nbsp;for(i = 0; i < 10; i++){<br>
+             &nbsp;&nbsp;&nbsp;   code...<br>
+             &nbsp; &nbsp;&nbsp;for(j =0; j < 10; j++){<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;    code....<br>
+                &nbsp;  }<br>
+            }
+            <br><br>
+            shorthand for For Loop... <br>
+            const fruits = ['mango', 'peach', 'banana']; <br>
+            for (let fruit of fruits)<br>
+        </code>
+    </p>
+    <script>
+        var count;
+        document.write("Starting For Loop "+"<br>");
+        for(count = 1; count <= 10; count++){
+            document.write("Count increment to " +count+"<br>");
+        }
+        document.write("For Loop Ended"+"<br><br><br>");
+
+        //Pyramid
+        document.write("Half Pyramid" + "<br>");
+        var i , j;
+        for(i = 1; i <=5; i++){
+            for(j = 1; j <=i; j++){
+                document.write("*");
+            }
+            document.write("<br>");
+        }
+    </script>
+</body>
+</html>
