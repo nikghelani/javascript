@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>The - Operator</h2>
+    <p id="addition"></p>
+    <p id="subtraction"></p>
+    <p id="multiplecation"></p>
+    <p id="division"></p>
+    <p id="counter"></p>
+    <script>
+        
+        var x = prompt("Enter value of X");
+        var y = prompt("Enter value of Y");
+        console.log(x * y);
+        console.log(x % y);
+        document.getElementById("addition").innerHTML = (x + y);
+        document.getElementById("subtraction").innerHTML = (x - y);
+        document.getElementById("multiplecation").innerHTML = (x * y);
+        document.getElementById("division").innerHTML = (x / y);
+        document.getElementById("counter").innerHTML = x += y;
+    </script>
+  </body>
+</html>
+ 

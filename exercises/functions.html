@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      function headFunction() {
+        document.getElementById("headTag").innerHTML = "Paragraph changed.";
+      }
+    </script>
+  </head>
+  <body>
+    <h1>A Web Page</h1>
+    <p id="headTag">A Paragraph</p>
+    <button type="button" onclick="headFunction()">Click Me!</button>
+    
+    <p id="bodyTag">A Paragraph</p>
+    <button type="button" onclick="bodyFunction()">Try it</button>
+    <script>
+      function bodyFunction() {
+         document.getElementById("bodyTag").innerHTML = "Paragraph changed.";
+      }
+    </script>
+  </body>
+</html>
