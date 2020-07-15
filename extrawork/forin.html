@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For in Loop</title>
+</head>
+<body>
+    <p>The <b>for...in</b> loop is used to loop through an object's properties.
+        As we have not discussed Objects yet, you may not feel comfortable with this loop.
+        But once you understand how objects behave in JavaScript, you will find this loop very useful.</p>
+        <code>
+            Syntax for For In <br>
+            for (variablename in object) {<br>
+            &nbsp;&nbsp;    statement or block to execute<br>
+             }<br><br>
+        </code>
+    <script>
+        var aProperty;
+        document.write("Windows Object Properties<br>");
+        for(aProperty in window){
+            document.write(aProperty + "<br>");
+        }
+        
+    </script>
+</body>
+</html>
